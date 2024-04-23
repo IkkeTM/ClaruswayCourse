@@ -16,7 +16,7 @@ def question(scale):
             if int(input(f"What is {number_1} * {number_2}? ")) == number_1 * number_2:
                 return 1
         case 3:
-            if int(input(f"What is {number_1} / {1 + number_2 // 10} rounded down? ")) == number_1 // (1+ number_2 // 10):
+            if int(input(f"What is {number_1} / {1 + number_2 % 10} rounded down? ")) == number_1 // (1+ number_2 % 10):
                 return 1
     return 0
 
