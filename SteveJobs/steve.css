@@ -1,0 +1,39 @@
+body {
+    margin: 3%;
+}
+
+.header {
+    text-align: center; 
+    border: 5px solid black;
+    background-color: yellow;
+    padding: 10px;
+}
+
+img {
+    border: 8px solid red;
+
+}
+
+p {   
+    border: 3px solid purple;
+    padding: 10px;
+    font-size: larger;
+    text-align: center; 
+}
+
+table, th, td {
+    border: 1px solid black;
+    td:hover {
+        background-color: beige;
+    }
+}
+
+#lastquote {
+    background-color: cyan;
+    font-size: x-large;
+    text-align: center;
+}
+
+a:hover {
+    background-color: lawngreen;
+}

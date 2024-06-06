@@ -3,15 +3,17 @@ import random
 number = random.randint(1,1000)
 print(number)
 
-counter = 0
 result = 0
 
-while counter <= number:
+for counter in range(1, number+1):
     result += counter
-    counter += 1
 
 print(result)
 
-result = 0.5 * number ** 2 + number * 0.5
+result = int(0.5 * number ** 2 + number * 0.5)
+
+print(result)
+
+result = int((number + 1) * number / 2)
 
 print(result)

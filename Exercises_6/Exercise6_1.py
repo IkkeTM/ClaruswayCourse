@@ -8,5 +8,7 @@ dict_1 = {
     lst_1[3] : lst_2[3]
 }
 
+dict_2 = dict(zip(lst_1, lst_2))
 
 print(dict_1)
+print(dict_2)
